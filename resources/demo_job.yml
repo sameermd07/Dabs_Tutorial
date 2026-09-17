@@ -1,7 +1,7 @@
 resources:
   jobs:
     demo_job:
-      name: "[${bundle.target}] DAB Demo Job"
+      name: "[${bundle.target}] DAB CI-CD Test Job"
 
       tasks:
         - task_key: run_demo
